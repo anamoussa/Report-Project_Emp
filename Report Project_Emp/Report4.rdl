@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="DataSource1">
+      <rd:DataSourceID>d2d024e6-bc47-4ed9-b917-acb3c88c020a</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString>Data Source=fz-dv-db01;Initial Catalog=DNACloudDB202001Benefit</ConnectString>
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <rd:ReportID>07cf6a4e-6480-4fac-abc6-34d590c3a34d</rd:ReportID>
+  <Width>5in</Width>
+  <Body>
+    <Height>0.43in</Height>
+    <ColumnSpacing>0.5in</ColumnSpacing>
+    <ReportItems>
+      <Textbox Name="textbox1">
+        <Style>
+          <FontFamily>Segoe UI Light</FontFamily>
+          <FontSize>24pt</FontSize>
+          <FontWeight>Bold</FontWeight>
+          <PaddingLeft>2pt</PaddingLeft>
+          <PaddingRight>2pt</PaddingRight>
+          <PaddingTop>2pt</PaddingTop>
+          <PaddingBottom>2pt</PaddingBottom>
+        </Style>
+        <rd:DefaultName>textbox1</rd:DefaultName>
+        <Value>Report4</Value>
+        <CanGrow>true</CanGrow>
+        <Height>0.43in</Height>
+      </Textbox>
+      <Table Name="table1">
+        <Top>0.43in</Top>
+        <Style />
+        <Header>
+          <RepeatOnNewPage>true</RepeatOnNewPage>
+          <TableRows>
+            <TableRow>
+              <TableCells />
+              <Height>0in</Height>
+            </TableRow>
+          </TableRows>
+        </Header>
+        <Details>
+          <TableRows>
+            <TableRow>
+              <TableCells />
+              <Height>0in</Height>
+            </TableRow>
+          </TableRows>
+        </Details>
+        <TableColumns />
+        <DataSetName>DataSet1</DataSetName>
+      </Table>
+    </ReportItems>
+  </Body>
+  <Language>en-US</Language>
+  <LeftMargin>1in</LeftMargin>
+  <RightMargin>1in</RightMargin>
+  <TopMargin>1in</TopMargin>
+  <BottomMargin>1in</BottomMargin>
+  <PageWidth>8.5in</PageWidth>
+  <PageHeight>11in</PageHeight>
+  <DataSets>
+    <DataSet Name="DataSet1">
+      <Fields />
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>hits_BuildReportQuery</CommandText>
+        <QueryParameters>
+          <QueryParameter Name="@reportNo">
+            <Value>=Parameters!reportNo.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@tablename">
+            <Value>=Parameters!tablename.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@Filterwhere">
+            <Value>=Parameters!Filterwhere.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@filterselect">
+            <Value>=Parameters!filterselect.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@LogonName">
+            <Value>=Parameters!LogonName.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@calendar">
+            <Value>=Parameters!calendar.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@lang">
+            <Value>=Parameters!lang.Value</Value>
+          </QueryParameter>
+          <QueryParameter Name="@parameters">
+            <Value>=Parameters!parameters.Value</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <Timeout>0</Timeout>
+        <rd:DesignerState>
+          <QueryDefinition xmlns="http://schemas.microsoft.com/ReportingServices/QueryDefinition/Relational">
+            <AutoJoin>False</AutoJoin>
+            <Functions>
+              <SProc ColumnOwner="hits_BuildReportQuery">
+                <Parameter Name="@reportNo">
+                  <Value>200</Value>
+                </Parameter>
+                <Parameter Name="@tablename">
+                  <Value>EmpAssignment</Value>
+                </Parameter>
+                <Parameter Name="@Filterwhere">
+                  <Value />
+                </Parameter>
+                <Parameter Name="@filterselect">
+                  <Value />
+                </Parameter>
+                <Parameter Name="@LogonName">
+                  <Value>1</Value>
+                </Parameter>
+                <Parameter Name="@calendar">
+                  <Value>g</Value>
+                </Parameter>
+                <Parameter Name="@lang">
+                  <Value>e</Value>
+                </Parameter>
+                <Parameter Name="@parameters">
+                  <Value />
+                </Parameter>
+              </SProc>
+            </Functions>
+            <SelectedColumns />
+          </QueryDefinition>
+        </rd:DesignerState>
+      </Query>
+    </DataSet>
+  </DataSets>
+  <ReportParameters>
+    <ReportParameter Name="reportNo">
+      <DataType>Integer</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>200</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>report No</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="tablename">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>EmpAssignment</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>tablename</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="Filterwhere">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>
+          </Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Filterwhere</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="filterselect">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>
+          </Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>filterselect</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="LogonName">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>1</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>Logon Name</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="calendar">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>g</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>calendar</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="lang">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>e</Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>lang</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+    <ReportParameter Name="parameters">
+      <DataType>String</DataType>
+      <DefaultValue>
+        <Values>
+          <Value>
+          </Value>
+        </Values>
+      </DefaultValue>
+      <Prompt>parameters</Prompt>
+      <Nullable>true</Nullable>
+    </ReportParameter>
+  </ReportParameters>
+</Report>

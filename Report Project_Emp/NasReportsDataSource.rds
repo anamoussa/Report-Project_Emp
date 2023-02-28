@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RptDataSource xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="DataSource">
+  <ConnectionProperties>
+    <Extension>SQL</Extension>
+    <ConnectString>Data Source=fz-dv-db01;Initial Catalog=DNACloudDB202001Benefit</ConnectString>
+  </ConnectionProperties>
+  <DataSourceID>b25e8b11-d7d2-4e5a-b569-5ad61a171a61</DataSourceID>
+</RptDataSource>
