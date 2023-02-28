@@ -18,13 +18,13 @@
             <Value>=Parameters!reportNo.Value</Value>
           </QueryParameter>
           <QueryParameter Name="@tablename">
-            <Value>=Parameters!tablename.Value</Value>
+            <Value>=Parameters!EMPASSIGNMENTTABLENAME.Value</Value>
           </QueryParameter>
           <QueryParameter Name="@Filterwhere">
-            <Value>=Parameters!Filterwhere.Value</Value>
+            <Value>=Parameters!EMPASSIGNMENTFILTERWHERE.Value</Value>
           </QueryParameter>
           <QueryParameter Name="@filterselect">
-            <Value>=Parameters!filterselect.Value</Value>
+            <Value>=Parameters!EMPASSIGNMENTFILTERSELECT.Value</Value>
           </QueryParameter>
           <QueryParameter Name="@LogonName">
             <Value>=Parameters!LogonName.Value</Value>
@@ -6150,7 +6150,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>table perview</Value>
+                      <Value>table perview3</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -6263,86 +6263,209 @@
       </Page>
     </ReportSection>
   </ReportSections>
-	
   <ReportParameters>
-	  
     <ReportParameter Name="reportNo">
-      <DataType>String</DataType>
+      <DataType>Integer</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>8089</Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
       <Prompt>report No</Prompt>
     </ReportParameter>
-    <ReportParameter Name="tablename">
+    <ReportParameter Name="EMPASSIGNMENTTABLENAME">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>EmpAssignment</Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
-      <Prompt>tablename</Prompt>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>EMPASSIGNMENTTABLENAME</Prompt>
     </ReportParameter>
-    <ReportParameter Name="Filterwhere">
+    <ReportParameter Name="EMPASSIGNMENTFILTERWHERE">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>AND(EmpAssignment.EmpId&lt;200)</Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
-      <Prompt>Filterwhere</Prompt>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>EMPASSIGNMENTFILTERWHERE</Prompt>
     </ReportParameter>
-    <ReportParameter Name="filterselect">
+    <ReportParameter Name="EMPASSIGNMENTFILTERSELECT">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value xml:space="preserve"> </Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
-      <Prompt>filterselect</Prompt>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>EMPASSIGNMENTFILTERSELECT</Prompt>
     </ReportParameter>
     <ReportParameter Name="LogonName">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>1</Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
+      <AllowBlank>true</AllowBlank>
       <Prompt>Logon Name</Prompt>
     </ReportParameter>
     <ReportParameter Name="calendar">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>g</Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
+      <AllowBlank>true</AllowBlank>
       <Prompt>calendar</Prompt>
     </ReportParameter>
     <ReportParameter Name="lang">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value>e</Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
+      <AllowBlank>true</AllowBlank>
       <Prompt>lang</Prompt>
     </ReportParameter>
     <ReportParameter Name="parameters">
       <DataType>String</DataType>
+      <Nullable>true</Nullable>
       <DefaultValue>
         <Values>
-          <Value xml:space="preserve"> </Value>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
         </Values>
       </DefaultValue>
+      <AllowBlank>true</AllowBlank>
       <Prompt>parameters</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="Propertyname">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>Propertyname</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="repheader">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>repheader</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="repfilter">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>repfilter</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="repdate">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>repdate</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="hitsfooter">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>hitsfooter</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="repfooter">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>repfooter</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="printhijridate">
+      <DataType>Boolean</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>printhijridate</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="dateformat">
+      <DataType>Integer</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>dateformat</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="DecimalScale">
+      <DataType>Integer</DataType>
+      <Nullable>true</Nullable>
+      <Prompt>DecimalScale</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="WinWeb">
+      <DataType>Integer</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:nil="true" />
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>WinWeb</Prompt>
+    </ReportParameter>
+    <ReportParameter Name="alert">
+      <DataType>String</DataType>
+      <Nullable>true</Nullable>
+      <DefaultValue>
+        <Values>
+          <Value>r</Value>
+        </Values>
+      </DefaultValue>
+      <AllowBlank>true</AllowBlank>
+      <Prompt>alert</Prompt>
+      <Hidden>true</Hidden>
     </ReportParameter>
   </ReportParameters>
   <ReportParametersLayout>
     <GridLayoutDefinition>
       <NumberOfColumns>4</NumberOfColumns>
-      <NumberOfRows>2</NumberOfRows>
+      <NumberOfRows>5</NumberOfRows>
       <CellDefinitions>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -6352,17 +6475,17 @@
         <CellDefinition>
           <ColumnIndex>1</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>tablename</ParameterName>
+          <ParameterName>EMPASSIGNMENTTABLENAME</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>2</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>Filterwhere</ParameterName>
+          <ParameterName>EMPASSIGNMENTFILTERWHERE</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>3</ColumnIndex>
           <RowIndex>0</RowIndex>
-          <ParameterName>filterselect</ParameterName>
+          <ParameterName>EMPASSIGNMENTFILTERSELECT</ParameterName>
         </CellDefinition>
         <CellDefinition>
           <ColumnIndex>0</ColumnIndex>
@@ -6383,6 +6506,61 @@
           <ColumnIndex>3</ColumnIndex>
           <RowIndex>1</RowIndex>
           <ParameterName>parameters</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>alert</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>WinWeb</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>DecimalScale</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>2</RowIndex>
+          <ParameterName>dateformat</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>printhijridate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>repfooter</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>hitsfooter</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>3</ColumnIndex>
+          <RowIndex>3</RowIndex>
+          <ParameterName>repdate</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>0</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>repfilter</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>1</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>repheader</ParameterName>
+        </CellDefinition>
+        <CellDefinition>
+          <ColumnIndex>2</ColumnIndex>
+          <RowIndex>4</RowIndex>
+          <ParameterName>Propertyname</ParameterName>
         </CellDefinition>
       </CellDefinitions>
     </GridLayoutDefinition>
