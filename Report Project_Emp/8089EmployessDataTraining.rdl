@@ -262,7 +262,7 @@
               </TablixColumns>
               <TablixRows>
                 <TablixRow>
-                  <Height>0.61459in</Height>
+                  <Height>0.48136in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -327,7 +327,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.35in</Height>
+                  <Height>0.35219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -338,7 +338,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Emp Id</Value>
+                                  <Value>Emp ID </Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -361,10 +361,9 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                           </Style>
                         </Textbox>
-                        <rd:Selected>true</rd:Selected>
                       </CellContents>
                     </TablixCell>
                     <TablixCell>
@@ -397,7 +396,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -436,7 +435,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -475,7 +474,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -514,7 +513,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -553,7 +552,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -592,7 +591,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -631,7 +630,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -670,7 +669,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -709,7 +708,7 @@
                             <BottomBorder>
                               <Color>Red</Color>
                             </BottomBorder>
-                            <BackgroundColor>#efefef</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -721,7 +720,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -772,7 +771,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -831,7 +830,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -890,7 +889,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -947,7 +946,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1004,7 +1003,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1061,7 +1060,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1118,7 +1117,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1175,7 +1174,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.2in</Height>
+                  <Height>0.20219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1203,6 +1202,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1235,6 +1246,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1267,6 +1290,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1299,6 +1334,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1331,6 +1378,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1363,6 +1422,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1395,6 +1466,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1427,6 +1510,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1459,6 +1554,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1491,6 +1598,18 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
+                            <TopBorder>
+                              <Color>White</Color>
+                            </TopBorder>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <LeftBorder>
+                              <Color>White</Color>
+                            </LeftBorder>
+                            <RightBorder>
+                              <Color>White</Color>
+                            </RightBorder>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1502,7 +1621,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1526,6 +1645,21 @@
                                     <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">           </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                                             </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
                               </TextRuns>
                               <Style>
                                 <TextAlign>Left</TextAlign>
@@ -1538,7 +1672,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1560,7 +1694,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1584,6 +1718,21 @@
                                     <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">  </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                                                                    </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
                               </TextRuns>
                               <Style>
                                 <TextAlign>Left</TextAlign>
@@ -1596,7 +1745,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1618,7 +1767,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1642,6 +1791,21 @@
                                     <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve"> </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                                                                                   </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
                               </TextRuns>
                               <Style>
                                 <TextAlign>Left</TextAlign>
@@ -1654,7 +1818,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1676,7 +1840,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1691,6 +1855,14 @@
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">  </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
                                 <TextRun>
@@ -1698,6 +1870,21 @@
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve"> </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                                                                                          </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
                                   </Style>
                                 </TextRun>
                               </TextRuns>
@@ -1712,7 +1899,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1734,7 +1921,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1758,6 +1945,21 @@
                                     <FontSize>9pt</FontSize>
                                   </Style>
                                 </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve"> </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                                                                                   </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
                               </TextRuns>
                               <Style>
                                 <TextAlign>Left</TextAlign>
@@ -1770,7 +1972,7 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
@@ -1792,7 +1994,7 @@
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1803,7 +2005,15 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value xml:space="preserve">              </Value>
+                                  <Value xml:space="preserve">               </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve"> </Value>
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontSize>9pt</FontSize>
@@ -1818,6 +2028,22 @@
                                     <Color>Blue</Color>
                                   </Style>
                                 </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve"> </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>Blue</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                                                                                                 </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
                               </TextRuns>
                               <Style>
                                 <TextAlign>Left</TextAlign>
@@ -1830,14 +2056,14 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>10</ColSpan>
+                        <ColSpan>6</ColSpan>
                       </CellContents>
                     </TablixCell>
                     <TablixCell />
@@ -1845,14 +2071,51 @@
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
-                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox78">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=count(Fields!EmployeeId.Value)</Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox78</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>4</ColSpan>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1863,7 +2126,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value xml:space="preserve">         </Value>
+                                  <Value xml:space="preserve">   </Value>
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontSize>9pt</FontSize>
@@ -1872,6 +2135,14 @@
                                 </TextRun>
                                 <TextRun>
                                   <Value>=Fields!GroupName2.Value</Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">  </Value>
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontSize>9pt</FontSize>
@@ -1890,14 +2161,14 @@
                               <Color>LightGrey</Color>
                               <Style>Solid</Style>
                             </Border>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>10</ColSpan>
+                        <ColSpan>6</ColSpan>
                       </CellContents>
                     </TablixCell>
                     <TablixCell />
@@ -1905,14 +2176,51 @@
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
-                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox69">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=count(Fields!EmployeeId.Value)</Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox69</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>4</ColSpan>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
                   </TablixCells>
                 </TablixRow>
                 <TablixRow>
-                  <Height>0.25in</Height>
+                  <Height>0.25219in</Height>
                   <TablixCells>
                     <TablixCell>
                       <CellContents>
@@ -1924,6 +2232,30 @@
                               <TextRuns>
                                 <TextRun>
                                   <Value>=Fields!GroupName1.Value</Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                                </Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>DarkBlue</Color>
+                                  </Style>
+                                </TextRun>
+                                <TextRun>
+                                  <Value xml:space="preserve">                                                       </Value>
                                   <Style>
                                     <FontStyle>Italic</FontStyle>
                                     <FontSize>9pt</FontSize>
@@ -1943,16 +2275,16 @@
                               <Style>Solid</Style>
                             </Border>
                             <BottomBorder>
-                              <Color>Red</Color>
+                              <Color>White</Color>
                             </BottomBorder>
-                            <BackgroundColor>Gainsboro</BackgroundColor>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
                             <PaddingLeft>2pt</PaddingLeft>
                             <PaddingRight>2pt</PaddingRight>
                             <PaddingTop>2pt</PaddingTop>
                             <PaddingBottom>2pt</PaddingBottom>
                           </Style>
                         </Textbox>
-                        <ColSpan>10</ColSpan>
+                        <ColSpan>6</ColSpan>
                       </CellContents>
                     </TablixCell>
                     <TablixCell />
@@ -1960,7 +2292,47 @@
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
-                    <TablixCell />
+                    <TablixCell>
+                      <CellContents>
+                        <Textbox Name="Textbox60">
+                          <CanGrow>true</CanGrow>
+                          <KeepTogether>true</KeepTogether>
+                          <Paragraphs>
+                            <Paragraph>
+                              <TextRuns>
+                                <TextRun>
+                                  <Value>=count(Fields!EmployeeId.Value)</Value>
+                                  <Style>
+                                    <FontStyle>Italic</FontStyle>
+                                    <FontSize>9pt</FontSize>
+                                    <Color>Red</Color>
+                                  </Style>
+                                </TextRun>
+                              </TextRuns>
+                              <Style>
+                                <TextAlign>Left</TextAlign>
+                              </Style>
+                            </Paragraph>
+                          </Paragraphs>
+                          <rd:DefaultName>Textbox60</rd:DefaultName>
+                          <Style>
+                            <Border>
+                              <Color>LightGrey</Color>
+                              <Style>Solid</Style>
+                            </Border>
+                            <BottomBorder>
+                              <Color>White</Color>
+                            </BottomBorder>
+                            <BackgroundColor>#e4e4e4</BackgroundColor>
+                            <PaddingLeft>2pt</PaddingLeft>
+                            <PaddingRight>2pt</PaddingRight>
+                            <PaddingTop>2pt</PaddingTop>
+                            <PaddingBottom>2pt</PaddingBottom>
+                          </Style>
+                        </Textbox>
+                        <ColSpan>4</ColSpan>
+                      </CellContents>
+                    </TablixCell>
                     <TablixCell />
                     <TablixCell />
                     <TablixCell />
@@ -2192,8 +2564,8 @@
               </TablixMembers>
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
-            <Top>0.06944in</Top>
-            <Height>5.16459in</Height>
+            <Top>0.02778in</Top>
+            <Height>5.07083in</Height>
             <Width>11.32225in</Width>
             <Style>
               <Border>
@@ -2217,7 +2589,7 @@
             </Style>
           </Tablix>
         </ReportItems>
-        <Height>6in</Height>
+        <Height>5.13542in</Height>
         <Style>
           <Border>
             <Style>None</Style>
@@ -2227,7 +2599,7 @@
       <Width>11.32225in</Width>
       <Page>
         <PageHeader>
-          <Height>0.405in</Height>
+          <Height>0.33208in</Height>
           <PrintOnFirstPage>true</PrintOnFirstPage>
           <PrintOnLastPage>true</PrintOnLastPage>
           <ReportItems>
@@ -2238,7 +2610,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>=CDate(Today()).ToString("MM/dd/yyyy")</Value>
+                      <Value>=Parameters!repdate.Value</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -2269,7 +2641,7 @@
                 <Paragraph>
                   <TextRuns>
                     <TextRun>
-                      <Value>table perview5</Value>
+                      <Value>=Parameters!repheader.Value</Value>
                       <Style />
                     </TextRun>
                   </TextRuns>
@@ -2281,7 +2653,7 @@
               <rd:DefaultName>Textbox21</rd:DefaultName>
               <Top>0.05334in</Top>
               <Height>0.25in</Height>
-              <Width>1.81626in</Width>
+              <Width>3.41001in</Width>
               <ZIndex>1</ZIndex>
               <Style>
                 <Border>
@@ -2368,8 +2740,14 @@
           </ReportItems>
           <Style>
             <Border>
-              <Style>None</Style>
+              <Style>Solid</Style>
             </Border>
+            <TopBorder>
+              <Color>Red</Color>
+            </TopBorder>
+            <BottomBorder>
+              <Color>White</Color>
+            </BottomBorder>
           </Style>
         </PageFooter>
         <PageHeight>8.27in</PageHeight>
