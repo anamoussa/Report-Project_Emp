@@ -221,6 +221,374 @@
         </Field>
       </Fields>
     </DataSet>
+    <DataSet Name="DataSet2">
+      <Query>
+        <DataSourceName>DataSource1</DataSourceName>
+        <QueryParameters>
+          <QueryParameter Name="@reportNo">
+            <Value>200</Value>
+          </QueryParameter>
+          <QueryParameter Name="@lang">
+            <Value>e</Value>
+          </QueryParameter>
+          <QueryParameter Name="@alert">
+            <Value>r</Value>
+          </QueryParameter>
+        </QueryParameters>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>hits_BuildReportHeaders</CommandText>
+      </Query>
+      <Fields>
+        <Field Name="nocolumn">
+          <DataField>nocolumn</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID200_customField">
+          <DataField>200.customField</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID200_GrandTotal">
+          <DataField>200.GrandTotal</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID200_PositionJob">
+          <DataField>200.PositionJob</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID200_TerminationDate">
+          <DataField>200.TerminationDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ID200_TransactionDate">
+          <DataField>200.TransactionDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Actual">
+          <DataField>commonreport.Actual</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_All">
+          <DataField>commonreport.All</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_And">
+          <DataField>commonreport.And</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_ApplicantID">
+          <DataField>commonreport.ApplicantID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Application">
+          <DataField>commonreport.Application</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_ApplicationID">
+          <DataField>commonreport.ApplicationID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_ApprovalDate">
+          <DataField>commonreport.ApprovalDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Approvals">
+          <DataField>commonreport.Approvals</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Budget">
+          <DataField>commonreport.Budget</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CommonReport_BudgetDim">
+          <DataField>CommonReport.BudgetDim</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CommonReport_Competencies">
+          <DataField>CommonReport.Competencies</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_ConsolidationCode">
+          <DataField>commonreport.ConsolidationCode</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_ConsolidationName">
+          <DataField>commonreport.ConsolidationName</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Credit">
+          <DataField>commonreport.Credit</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Debit">
+          <DataField>commonreport.Debit</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_empid">
+          <DataField>commonreport.empid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_EmployeeData">
+          <DataField>commonreport.EmployeeData</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Ending_Balance">
+          <DataField>commonreport.Ending_Balance</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_GrandTotal">
+          <DataField>commonreport.GrandTotal</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Max">
+          <DataField>commonreport.Max</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Mid">
+          <DataField>commonreport.Mid</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Min">
+          <DataField>commonreport.Min</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Name">
+          <DataField>commonreport.Name</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_No">
+          <DataField>commonreport.No</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_NoOfDays">
+          <DataField>commonreport.NoOfDays</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Openning_Balance">
+          <DataField>commonreport.Openning_Balance</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Or">
+          <DataField>commonreport.Or</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_OTHERINFORMATION">
+          <DataField>commonreport.OTHERINFORMATION</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_position_job">
+          <DataField>commonreport.position\job</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Questions">
+          <DataField>commonreport.Questions</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RDesc">
+          <DataField>commonreport.RDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Reason">
+          <DataField>commonreport.Reason</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefDesc">
+          <DataField>commonreport.RefDesc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_References">
+          <DataField>commonreport.References</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefExecDate">
+          <DataField>commonreport.RefExecDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefIssueDate">
+          <DataField>commonreport.RefIssueDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefNo">
+          <DataField>commonreport.RefNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefSource">
+          <DataField>commonreport.RefSource</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefStatus">
+          <DataField>commonreport.RefStatus</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RefYear">
+          <DataField>commonreport.RefYear</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RExecDate">
+          <DataField>commonreport.RExecDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RIssueDate">
+          <DataField>commonreport.RIssueDate</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RNo">
+          <DataField>commonreport.RNo</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Role">
+          <DataField>commonreport.Role</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RSource">
+          <DataField>commonreport.RSource</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RStatus">
+          <DataField>commonreport.RStatus</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_RYear">
+          <DataField>commonreport.RYear</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_SessionUser">
+          <DataField>commonreport.SessionUser</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Commonreport_ShiftHours">
+          <DataField>Commonreport.ShiftHours</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Signature">
+          <DataField>commonreport.Signature</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Status">
+          <DataField>commonreport.Status</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Total">
+          <DataField>commonreport.Total</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="CommonReport_WorkingHours">
+          <DataField>CommonReport.WorkingHours</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="commonreport_Yes">
+          <DataField>commonreport.Yes</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_CLOCKNO">
+          <DataField>EMPASSIGNMENT.CLOCKNO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_EMPID">
+          <DataField>EMPASSIGNMENT.EMPID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_EMPLOYEEID">
+          <DataField>EMPASSIGNMENT.EMPLOYEEID</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_FILENUMBER">
+          <DataField>EMPASSIGNMENT.FILENUMBER</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_HIREDATE">
+          <DataField>EMPASSIGNMENT.HIREDATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_POSITIONNO">
+          <DataField>EMPASSIGNMENT.POSITIONNO</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="EMPASSIGNMENT_WORKRECEIVINGDATE">
+          <DataField>EMPASSIGNMENT.WORKRECEIVINGDATE</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GRADES_GRADEANAME">
+          <DataField>GRADES.GRADEANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="GRADES_GRADENAME">
+          <DataField>GRADES.GRADENAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HRSTATUS_HRSTATUSANAME">
+          <DataField>HRSTATUS.HRSTATUSANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="HRSTATUS_HRSTATUSNAME">
+          <DataField>HRSTATUS.HRSTATUSNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="JOBS_JOBANAME">
+          <DataField>JOBS.JOBANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="JOBS_JOBNAME">
+          <DataField>JOBS.JOBNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LOCATION_LOCATIONANAME">
+          <DataField>LOCATION.LOCATIONANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="LOCATION_LOCATIONNAME">
+          <DataField>LOCATION.LOCATIONNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ORGANIZATION_ORGANIZATIONANAME">
+          <DataField>ORGANIZATION.ORGANIZATIONANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="ORGANIZATION_ORGANIZATIONNAME">
+          <DataField>ORGANIZATION.ORGANIZATIONNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="POSITIONS_POSITIONANAME">
+          <DataField>POSITIONS.POSITIONANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="POSITIONS_POSITIONNAME">
+          <DataField>POSITIONS.POSITIONNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_ANAME">
+          <DataField>PROFILE.ANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_FIRSTANAME">
+          <DataField>PROFILE.FIRSTANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_FIRSTNAME">
+          <DataField>PROFILE.FIRSTNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_LASTANAME">
+          <DataField>PROFILE.LASTANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_LASTNAME">
+          <DataField>PROFILE.LASTNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_MIDANAME">
+          <DataField>PROFILE.MIDANAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_MIDNAME">
+          <DataField>PROFILE.MIDNAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="PROFILE_NAME">
+          <DataField>PROFILE.NAME</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+    </DataSet>
   </DataSets>
   <ReportSections>
     <ReportSection>
@@ -273,15 +641,8 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Employee Organizational Detalis</Value>
-                                  <Style>
-                                    <FontStyle>Normal</FontStyle>
-                                    <FontFamily>Times New Roman</FontFamily>
-                                    <FontSize>12pt</FontSize>
-                                    <FontWeight>Bold</FontWeight>
-                                    <TextDecoration>None</TextDecoration>
-                                    <Color>Red</Color>
-                                  </Style>
+                                  <Value>=Parameters!repheader.Value</Value>
+                                  <Style />
                                 </TextRun>
                               </TextRuns>
                               <Style>
@@ -338,7 +699,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Emp ID </Value>
+                                  <Value>=First(Fields!EMPASSIGNMENT_EMPLOYEEID.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -375,7 +736,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Name</Value>
+                                  <Value>=First(Fields!PROFILE_NAME.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -414,7 +775,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Hrstatus Name</Value>
+                                  <Value>=First(Fields!HRSTATUS_HRSTATUSNAME.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -453,7 +814,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Hire Date</Value>
+                                  <Value>=First(Fields!EMPASSIGNMENT_HIREDATE.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -492,7 +853,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>File Number</Value>
+                                  <Value>=First(Fields!EMPASSIGNMENT_FILENUMBER.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -531,7 +892,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Position /Job</Value>
+                                  <Value>=First(Fields!POSITIONS_POSITIONNAME.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -570,7 +931,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Organization Name</Value>
+                                  <Value>=First(Fields!ORGANIZATION_ORGANIZATIONNAME.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -609,7 +970,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Grade Name</Value>
+                                  <Value>=First(Fields!GRADES_GRADENAME.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -648,7 +1009,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Location Name</Value>
+                                  <Value>=First(Fields!LOCATION_LOCATIONNAME.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -687,7 +1048,7 @@
                             <Paragraph>
                               <TextRuns>
                                 <TextRun>
-                                  <Value>Clock No</Value>
+                                  <Value>=First(Fields!EMPASSIGNMENT_CLOCKNO.Value, "DataSet2")</Value>
                                   <Style>
                                     <FontSize>9pt</FontSize>
                                     <FontWeight>Bold</FontWeight>
@@ -2565,7 +2926,7 @@
             </TablixRowHierarchy>
             <DataSetName>DataSet1</DataSetName>
             <Top>0.02778in</Top>
-            <Height>5.07083in</Height>
+            <Height>5.07078in</Height>
             <Width>11.32225in</Width>
             <Style>
               <Border>
@@ -2621,7 +2982,7 @@
               </Paragraphs>
               <rd:DefaultName>Textbox21</rd:DefaultName>
               <Top>0.05334in</Top>
-              <Left>8.71499in</Left>
+              <Left>9.74558in</Left>
               <Height>0.25in</Height>
               <Width>1.57667in</Width>
               <Style>

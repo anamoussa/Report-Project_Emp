@@ -13,7 +13,7 @@
     <TargetDatasourceFolder>Data Sources</TargetDatasourceFolder>
     <TargetReportPartFolder>Report Parts</TargetReportPartFolder>
     <TargetServerURL>http://localhost/ReportServer</TargetServerURL>
-    <StartItem>8089EmployessDataTraining.rdl</StartItem>
+    <StartItem>8094PayCodeSummary.rdl</StartItem>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'DebugLocal' ">
     <FullPath>DebugLocal</FullPath>
@@ -54,9 +54,10 @@
   </ItemGroup>
   <ItemGroup>
     <Report Include="8089EmployessDataTraining.rdl" />
-    <Report Include="Report1.rdl" />
-    <Report Include="Report2.rdl" />
-    <Report Include="Report3.rdl" />
+    <Report Include="8094APayCodeSummary.rdl" />
+    <Report Include="8094PayCodeSummary.rdl" />
+    <Report Include="8096vacationRequest.rdl" />
+    <Report Include="test.rdl" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Reporting Services\Microsoft.ReportingServices.MSBuilder.targets" />
 </Project>
